@@ -161,6 +161,12 @@ hr.small {
   padding: 15px 20px;
 }
 
+.logo {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
 
 /* Header */
 
