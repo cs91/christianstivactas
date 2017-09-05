@@ -191,7 +191,7 @@ hr.small {
 }
 
 @media(max-width:768px) {
-  .services {
+  .about {
     height: auto;
   }
 }
