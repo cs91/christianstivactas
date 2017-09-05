@@ -199,35 +199,32 @@ hr.small {
   color: white;
 }
 
+.about h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
 /* Services */
 
 .services {
-  padding: 50px 0;
+  padding: 100px 0;
   background: url(../img/helloquence-61189.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media(max-width:768px) {
+  .services {
+    height: auto;
+  }
 }
 
 .service-item {
-  margin-bottom: 30px;
-}
-
-.fa-search {
-  color: #464a4e!important;
-}
-
-.fa-connectdevelop {
-  color: #464a4e!important;
-}
-
-.fa-retweet {
-  color: #464a4e!important;
-}
-
-.fa-dropbox {
-  color: #464a4e!important;
+  margin-bottom: 70px;
 }
 
 .services h2 {
@@ -254,7 +251,11 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-  padding: 50px 0;
+  padding: 100px 0;
+}
+
+.portfolio h2 {
+  margin-bottom: 15px;
 }
 
 .portfolio-item {
@@ -304,6 +305,11 @@ footer {
   padding: 100px 0;
   background-color: #000000;
   opacity: 0.4;
+  color: white;
+}
+
+.text-muted {
+  color: white;
 }
 
 #to-top {
@@ -314,3 +320,26 @@ footer {
   display: none;
   padding: 15px 20px;
 }
+
+/* Icons */
+
+.fa-search {
+  color: #464a4e!important;
+}
+
+.fa-connectdevelop {
+  color: #464a4e!important;
+}
+
+.fa-retweet {
+  color: #464a4e!important;
+}
+
+.fa-dropbox {
+  color: #464a4e!important;
+}
+
+.fa-envelope-o {
+  color: white;
+}
+
