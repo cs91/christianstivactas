@@ -190,6 +190,12 @@ hr.small {
   height: 100%;
 }
 
+@media(max-width:768px) {
+  .services {
+    height: auto;
+  }
+}
+
 .about h1 {
   color: white;
   margin-bottom: 20px;
